@@ -10,6 +10,7 @@ while True:
     print("3 - Lucky Draw")
     print("4 - Roll the dice")
     print("5 - Marbles")
+    print("6 - Maths Quiz")
     print("Q - To Exit the game")
 
     user_choice = input("Enter a choice: ")
@@ -26,6 +27,12 @@ while True:
 
     elif user_choice == "4":
         import roll_the_dice
+
+    elif user_choice == "5":
+        import marbles
+
+    elif user_choice == "6":
+        import maths_quiz
 
     elif user_choice == "Q":
         print("Thanks for playing the game")
