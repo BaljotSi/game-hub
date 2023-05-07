@@ -9,6 +9,7 @@ while True:
     print("2 - Rock Paper Scissor")
     print("3 - Lucky Draw")
     print("4 - Roll the dice")
+    print("5 - Marbles")
     print("Q - To Exit the game")
 
     user_choice = input("Enter a choice: ")
