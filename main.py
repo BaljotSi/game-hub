@@ -2,7 +2,7 @@ print("Game Hub")
 
 while True:
     print()
-    print("*"*25)
+    print("*" * 25)
     print()
     print("Select one of the games you want to play in life")
     print("1 - Coin flip")
@@ -11,10 +11,10 @@ while True:
     print("4 - Roll the dice")
     print("5 - Marbles")
     print("6 - Maths Quiz")
+    print("7 - Quiz Game")
     print("Q - To Exit the game")
 
     user_choice = input("Enter a choice: ")
-
 
     if user_choice == "1":
         import coin_flip
@@ -33,6 +33,9 @@ while True:
 
     elif user_choice == "6":
         import maths_quiz
+
+    elif user_choice == "6":
+        import quiz_game
 
     elif user_choice == "Q":
         print("Thanks for playing the game")
