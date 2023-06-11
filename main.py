@@ -11,6 +11,7 @@ while True:
     print("4 - Roll the dice")
     print("5 - Marbles")
     print("6 - Maths Quiz")
+    print("7 - Countdown Timer")
     print("Q - To Exit the game")
 
     user_choice = input("Enter a choice: ")
@@ -33,6 +34,9 @@ while True:
 
     elif user_choice == "6":
         import maths_quiz
+
+    elif user_choice == "7":
+        import countdown
 
     elif user_choice == "Q":
         print("Thanks for playing the game")
