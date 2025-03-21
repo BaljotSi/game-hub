@@ -2,7 +2,7 @@ print("Game Hub")
 
 while True:
     print()
-    print("*"*25)
+    print("*")
     print()
     print("Select one of the games you want to play in life")
     print("1 - Coin flip")
